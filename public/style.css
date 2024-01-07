@@ -134,15 +134,22 @@ button{
 .account .icon{
   width: 50px;
   height: 50px;
-  background-image: url(account.png);
+  background-image: url("user.png");
+  filter: invert(1);
+  background-size: 50px 50px;
   opacity: 1;
   border-radius: 50%;
   position: absolute;
   left: 4px;
   top: 4px;
+  transition: 100ms;
 }
 .account:hover{
-  box-shadow: 0 0 10px 10px rgb(255, 255, 255, 0.24);
+  box-shadow: 0 0 0px 3px rgb(255, 255, 255, 0.24);
+  transition: 100ms;
+}
+.icon:hover{
+  filter: invert(0.8);
 }
 div .wrapper{
   height: 100vh;
