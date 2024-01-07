@@ -29,6 +29,10 @@ button{
   background-image: -ms-linear-gradient( 90deg, rgb(11,19,59) 0%,
    rgb(11,19,59) 0%, rgb(13,33,88) 0%, rgb(43,79,255) 0%, rgb(0,115,255) 100%);
   position: absolute;
+  justify-content: center;
+  display: grid;
+  align-items: center;
+  place-items: center ;
   top: 90vh;
   width: min(660px, 90vw);
   height: 90px;
@@ -36,12 +40,6 @@ button{
   z-index: 2;
 }
 .account{
-  /*background: rgba( 255, 255, 255, 0 );
-box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-backdrop-filter: blur( 10px );
--webkit-backdrop-filter: blur( 3px );
-border-radius: 10px;
-border: 20px solid rgba( 255, 255, 255, 0.18 );*/
   border-radius: 20px;
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur( 3px );
@@ -54,6 +52,7 @@ border: 20px solid rgba( 255, 255, 255, 0.18 );*/
   z-index: 4;
 }
 .account .icon{
+  margin: 0 auto;
   width: 50px;
   height: 50px;
   background-image: url("user.png");
@@ -67,6 +66,11 @@ border: 20px solid rgba( 255, 255, 255, 0.18 );*/
   top: 3px;
   transition: 70ms;
 }
+.icon{
+  display: block;
+  margin-left: auto;
+  margin-right: auto }
+
 .account:hover{
   box-shadow: 0 0 0px 1px rgb(255, 255, 255, 0.24);
   transition: 70ms;
@@ -78,6 +82,32 @@ border: 20px solid rgba( 255, 255, 255, 0.18 );*/
   filter: invert(0.8);
   background-size: 49px 49px;
 }
+div .create{
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur( 3px );
+  -webkit-backdrop-filter: blur( 3px );
+  position: absolute;
+  justify-content: center;
+  width: 70px;
+  height: 70px;
+  z-index: 4;
+}
+/*.create .plus{
+  margin: 0 auto;
+  width: 70px;
+  height: 70px;
+  background-image: url("add.png");
+  filter: invert(1);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 1;
+  position: absolute;
+  left: -2px;
+  top: -3px;
+  transition: 70ms;*
+}*/
 div .wrapper{
   height: 100vh;
   width: 100vw;

@@ -49,24 +49,15 @@ db.each(`SELECT Count(*) FROM lists`, (err, rows) => {
 setTimeout(() => {
   index += `
       <div class="context-menu">
-          <div class="toolbar">
-              <div class="rect-1"></div>
-              <div class="line-1"></div>
-              <div class="line-2"></div>
-              <div class="line-3"></div>
-          </div>
           <div class="create">
-              <div class="ellipse-1">
-                  <div class="plus-rect-1"></div>
-                  <div class="plus-rect-2"></div>
-              </div>
+            <div class="plus"></div>
           </div>
           <div class="account">
-              <div class="icon"></div>
+            <div class="icon"></div>
           </div>
-      </div>
       <script src="script.js"></script>
       <script src="style.js"></script>
+      </div>
     </body>
   </html>`;
 }, 500);
