@@ -76,7 +76,8 @@ button{
   transition: 70ms;
 }
 .icon:active{
-  filter: invert(0.8);
+  filter: invert(0.85);
+  transition: 30ms;
 }
 .account:active{
   box-shadow: 0 0 0px 2px rgb(255, 255, 255, 0.1);
@@ -95,16 +96,28 @@ button{
   z-index: 4;
 }
 .add{
-  width: 64px;
-  height: 64px;
+  width: 60px;
+  height: 60px;
   background-image: url("plus.png");
   filter: invert(1);
   background-size: cover;
   background-repeat: no-repeat;
   position: absolute;
   background-position: center;
-  top: 3px;
-  left: 3px;
+  top: 5px;
+  left: 5px;
+}
+.create:hover{
+  box-shadow: 0 0 0px 1px rgb(255, 255, 255, 0.1);
+  transition: 70ms;
+}
+.create:active{
+  box-shadow: 0 0 0px 2px rgb(255, 255, 255, 0.1);
+  transition: 30ms;
+}
+.add:active{
+  filter: invert(0.85);
+  transition: 30ms;
 }
 /*.create .plus{ шлеб
   margin: 0 auto;
