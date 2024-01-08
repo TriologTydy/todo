@@ -50,7 +50,7 @@ setTimeout(() => {
   index += `
       <div class="context-menu">
           <div class="create">
-            <div class="plus"></div>
+            <div class="add"></div>
           </div>
           <div class="account">
             <div class="icon"></div>
