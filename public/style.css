@@ -28,7 +28,7 @@ button{
    rgb(11,19,59) 0%, rgb(13,33,88) 0%, rgb(43,79,255) 0%, rgb(0,115,255) 100%);
   background-image: -ms-linear-gradient( 90deg, rgb(11,19,59) 0%,
    rgb(11,19,59) 0%, rgb(13,33,88) 0%, rgb(43,79,255) 0%, rgb(0,115,255) 100%);
-  position: absolute;
+  position: fixed;
   justify-content: center;
   display: grid;
   align-items: center;
@@ -96,16 +96,16 @@ button{
   z-index: 4;
 }
 .add{
-  width: 60px;
-  height: 60px;
-  background-image: url("plus.png");
+  width: 62px;
+  height: 62px;
+  background-image: url("add\ circle.png");
   filter: invert(1);
   background-size: cover;
   background-repeat: no-repeat;
-  position: absolute;
+  position: relative;
   background-position: center;
-  top: 5px;
-  left: 5px;
+  left: 4px;
+  top: 4px;
 }
 .create:hover{
   box-shadow: 0 0 0px 1px rgb(255, 255, 255, 0.1);
