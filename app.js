@@ -56,6 +56,8 @@ setTimeout(() => {
         </div>
       </div>
       <script src="script.js"></script>
+      <script src="style.js"></script>
+      </div>
     </body>
   </html>`;
 }, 500);
