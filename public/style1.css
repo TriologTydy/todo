@@ -18,21 +18,25 @@ body {
 }
 .context-menu {
 	position: fixed;
-	width: 250px;
+	width: 50px;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
+	background-image: url("add.png");
+	background-size: cover;
 }
 .context-menu .btn {
 	position: relative;
 	top: 0;
 	left: 0;
-	width: 250px;
+	width: 50px;
 	height: 50px;
 	margin: 0;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	background-image: url("add.png");
+	background-size: cover;
 }
 .context-menu .btn .wrap {
 	position: absolute;
@@ -60,8 +64,10 @@ body {
 }
 .context-menu .btn:hover .wrap {
 	letter-spacing: 3px;
+	width: 250px;
+	left: -98px;
 }
-.context-menu .btn .wrap::before {
+/* .context-menu .btn .wrap::before {
 	content: "";
 	position: absolute;
 	top: 0;
@@ -89,14 +95,14 @@ body {
 	transition: 0.2s;
 	transition-delay: 0.5;
 }
-.context-menu .btn:hover::before /*lightup button*/ {
+.context-menu .btn:hover::before	 {
 	bottom: 0;
 	height: 50%;
 	width: 80%;
 	border-radius: 30px;
-}
+} */
 
-.context-menu .btn::after {
+/* .context-menu .btn::after {
 	content: "";
 	position: absolute;
 	left: 50%;
@@ -109,13 +115,13 @@ body {
 	transition: 0.2s;
 	transition-delay: 0.5;
 }
-.context-menu .btn:hover::after /*lightup button*/ {
+.context-menu .btn:hover::after  {
 	top: 0;
 	height: 50%;
 	width: 80%;
 	border-radius: 30px;
-}
-.context-menu .btn:nth-child(1)::before, /* 2*/
+} */
+/* .context-menu .btn:nth-child(1)::before, 
 .context-menu .btn:nth-child(1)::after {
 	background: #2db2ff;
 	box-shadow: 0 0 5px #2db2ff, 0 0 15px #2db2ff, 0 0 30px #2db2ff, 0 0 60px #2db2ff;
@@ -124,7 +130,7 @@ body {
 	--col: rgb(0, 119, 255);
 	background: var(--col);
 	box-shadow: 0 0 5px var(--col), 0 0 15px var(--col), 0 0 30px var(--col), 0 0 60px var(--col);
-}
+} */
 .tools, .create, .account{
 	background: red;
 	height: 40px;
