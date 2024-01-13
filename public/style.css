@@ -119,21 +119,6 @@ button{
   filter: invert(0.85);
   transition: 30ms;
 }
-/*.create .plus{ шлеб
-  margin: 0 auto;
-  width: 70px;
-  height: 70px;
-  background-image: url("add.png");
-  filter: invert(1);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  opacity: 1;
-  position: absolute;
-  left: -2px;
-  top: -3px;
-  transition: 70ms;*
-}*/
 div .wrapper{
   height: 100vh;
   width: 100vw;
@@ -148,7 +133,7 @@ div .noteWrap{
   font-size: 40px;
   margin: 0px;
 }
-.saveChanges{
+/*.saveChanges{
   background-image: -moz-linear-gradient( 90deg, rgb(11,19,59) 0%,
   rgb(11,19,59) 0%, rgb(13,33,88) 0%, rgb(43,79,255) 0%, rgb(0,115,255) 100%);
   background-image: -webkit-linear-gradient( 90deg, rgb(11,19,59) 0%,
@@ -158,4 +143,4 @@ div .noteWrap{
   position: absolute;
   height: 90px;
   border-radius: 50px;
-}
+}*/
